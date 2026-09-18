@@ -1,7 +1,41 @@
 body{
     background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    
 }
 
 .dropdown{
-    align-items: center;
+    
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: black;
+    
 }
+
+.dropdown p{
+    width: 100%;
+    font-family: monospace;
+    white-space: pre;
+    color: aliceblue ;
+    text-align: center;
+}
+/*appearence : none removes the default dropdown value*/
+.dropdown select{
+    border: none;
+    outline: none;
+    appearance: none;
+    font-family: monospace;
+    background-color: black;
+    color: aliceblue ;
+}
+
+.dropdown option{
+    font-family: monospace;
+    background-color: black;
+} 
+

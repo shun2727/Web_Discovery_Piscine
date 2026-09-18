@@ -1,0 +1,23 @@
+/* unlike html which uses tags, in order to comment things out they use <!----> bu there a simple comment as per other programming languages are used */
+/* classes require a . infront to indicate its a class, wheres for established tags like table body or head whatnot, . is not required*/
+
+/*height:100% does not work as expected because it has no reason why the content should be stopped at the bottom because content flows veritcally and not hp*/
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+}
+/*table is revolved around the rows and cells */
+/* by default body will have a browser's default margin so set it to 0%*/
+body{
+    margin: 0%;
+}
+
+td{
+    border: 1px solid black;
+}
+
+tr:nth-child(1) td:nth-child(2){ background-color: aliceblue;}
+tr:nth-child(1) td:nth-child(1){background-color:antiquewhite;}
