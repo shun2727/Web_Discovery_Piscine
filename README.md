@@ -139,4 +139,34 @@ Viewport means the users's visible area of a webpage,
 
 ## ex02 :
 > how to replicate parallax
-> 
+- https://www.w3schools.com/HOWTO/howto_css_parallax.asp
+
+## ex03 :
+> how to create a user profile card
+- https://www.w3schools.com/howto/howto_css_cards.asp
+- https://www.w3schools.com/howto/howto_css_profile_card.asp
+
+> merging columns in html
+- https://www.w3schools.com/html/html_table_colspan_rowspan.asp
+
+> maniputaing images
+- https://www.w3schools.com/css/css3_object-fit.asp
+
+> button
+- https://www.w3schools.com/TAGs/tryit.asp?filename=tryhtml_button_css
+
+> i tag in html
+It just means itallic but its used for icons so that it is easility identifiable
+
+## cell 03
+### ex00
+> Adding a javascript file
+At head, do <script src="file"></script>
+
+> creating scripts and events 
+- https://www.youtube.com/watch?v=tLzMVZWapu8
+- https://www.w3schools.com/html/html_scripts.asp
+- https://stackoverflow.com/questions/21663003/change-background-color-with-button-in-html-page-how-to-use-more-than-1-color
+
+> using id for elements
+- https://stackoverflow.com/questions/12510399/do-i-really-need-to-call-getelementbyid

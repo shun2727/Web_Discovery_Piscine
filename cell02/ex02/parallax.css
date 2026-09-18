@@ -1,3 +1,62 @@
 body{
-    background-image: ;
+	height: 100vh;
+	margin: 0%;
+}
+
+/*the size of the image should be stated or else it will not show*/
+/*
+background-size :cover (fills the entire background area of its container, maintains the aspect ratio of the image and it fills in the gap to match the container's dimensions)
+background-position: center; (finds the absolute centrepoint and focus on it)
+background-attachment CSS property determines whether a background image scrolls along with the web page or stays fixed in place while the user scrolls.
+	background-attachment:scroll; (default) where the image is fixed to the element itself
+	background-attachment:fixed;  background image is glued to the viewport (the browser window). No matter how far down you scroll, the image stays completely still while the content moves over it.
+*/
+.parallax_image1{
+	height: 60%;
+	width: 100%;
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYoD5sCGiaCdD_aXk61xpujV3VC7tn4QAHGXyECmq-iVOfzUUxXCbVzCS0&s=10");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: grid;	
+	place-items: center;
+	opacity: 0.8;
+}
+/*
+display: flex and display: grid turn the parent <div> itself into the container.
+*/
+.parallax_image1 p{
+	color: white;
+	
+}
+
+.black_text{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+	display: grid;	
+	place-items: center;
+}
+
+.black_text p{
+	color: white;
+}
+
+.parallax_image2{
+	height: 60%;
+	width: 100%;
+	background-image:url("https://static.wikia.nocookie.net/silly-cat/images/4/47/Uni.png/revision/latest?cb=20231003081733");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: grid;	
+	place-items: center;
+	opacity: 0.8;
+}
+
+.parallax_image2 p{
+	color: white;
+
 }
