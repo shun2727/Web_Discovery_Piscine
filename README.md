@@ -170,3 +170,49 @@ At head, do <script src="file"></script>
 
 > using id for elements
 - https://stackoverflow.com/questions/12510399/do-i-really-need-to-call-getelementbyid
+
+### ex01
+CREATING A BALlOON
+> growing onctent
+- https://www.geeksforgeeks.org/javascript/how-to-make-the-images-bigger-when-clicked/
+- https://www.w3schools.com/cssref/css3_pr_transform.php
+- https://www.w3schools.com/jsref/event_onmouseleave.asp
+- https://www.w3schools.com/jsref/prop_style_transform.asp
+
+> Targeting an element on the html using javscript
+- 
+
+> variables in javascript
+-  ' ' is regular strin
+- " " is regular sring
+- ` ` is templates literal hwich allows ${} to be interpreted
+
+> javascript if else statement
+- https://www.w3schools.com/js/js_if_else.asp
+
+> javascript arrays
+- https://www.w3schools.com/js/js_arrays.asp
+
+
+### ex02 
+Creating a basic calculator 
+- https://www.w3schools.com/tags/tag_input.asp
+
+> Getting a value from textbox using javascript
+- https://www.w3schools.com/jsref/prop_text_value.asp
+
+> DOM 
+- https://www.w3schools.com/whatis/whatis_htmldom.asp
+
+> form
+- form 
+    - onsubmit="javascript function"
+    - action ="url"
+- <input> if the type is not defained it wil default to text
+- <button> will default it to submit
+
+> .innerHTML 
+- need to use innerHTML
+
+> .value 
+- to get the value in the text user 

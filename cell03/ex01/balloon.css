@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    display: grid;
+    place-items: center;
+}
+
+.balloon{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+.balloon:hover{
+    cursor: pointer;
+}
+
+/*
+when its hovering its size will shrink by 5px
+e
+*/

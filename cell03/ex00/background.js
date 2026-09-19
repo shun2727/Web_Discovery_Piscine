@@ -12,6 +12,7 @@ class colorchange{
         let sum = colorchange.times + 1;
         let ans = sum % 3 ; 
     
+        console.log(document.body)
         switch(ans){
             case(0) :
                 document.body.style.backgroundColor = "yellow";
